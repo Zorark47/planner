@@ -13,6 +13,9 @@ return (
 		<NavLink to="/count" activeStyle>
 			Count
 		</NavLink>
+		<NavLink to="/login" activeStyle>
+			Login
+		</NavLink>
 		</NavMenu>
 	</Nav>
 	</>

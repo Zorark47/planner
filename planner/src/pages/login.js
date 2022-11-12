@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import {
   MDBBtn,
@@ -12,7 +13,7 @@ import {
 }
 from 'mdb-react-ui-kit';
 
-function App() {
+const Login = () => {
   return (
     <MDBContainer className="my-5">
 
@@ -55,4 +56,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
