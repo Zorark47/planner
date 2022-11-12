@@ -35,7 +35,7 @@ const Login = () => {
 
               <h5 className="fw-normal my-4 pb-3" style={{letterSpacing: '1px'}}>Sign into your account</h5>
 
-                <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"/>
+                <MDBInput wrapperClass='mb-4' label='Username' id='formControlLg' type='username' size="lg"/>
                 <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
 
               <MDBBtn className="mb-4 px-5" color='dark' size='lg'>Login</MDBBtn>
