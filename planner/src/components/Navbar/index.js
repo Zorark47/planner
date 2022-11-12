@@ -10,8 +10,8 @@ return (
 		<NavLink to="/about" activeStyle>
 			About
 		</NavLink>
-		<NavLink to="/count" activeStyle>
-			Count
+		<NavLink to="/task" activeStyle>
+			Task
 		</NavLink>
 		<NavLink to="/login" activeStyle>
 			Login
