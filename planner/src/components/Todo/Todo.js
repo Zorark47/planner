@@ -1,18 +1,22 @@
 import React from "react";
+import Button from '@mui/material/Button';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 export default function Todo(props) {
     return (
       <li>
         <div>
-            <input type="checkbox"></input>
-          <h3>
-            {props.text}
-          </h3>
+        <FormGroup>
+            <FormControlLabel control={<Checkbox/>} label={props.text}/>
+        </FormGroup>
+        <h6>Due {props.date}</h6>
         </div>
         <div>
-          <button type="button" onClick={() => props.deleteTask(props.id)}>
-            Delete <span>{props.text}</span>
-          </button>
+          <Button onClick={() => props.deleteTask(props.id)}>
+            Delete {props.text}
+          </Button>
         </div>
       </li>
     );
